@@ -5,6 +5,7 @@ body {
 
 img {
 	border-radius: 6px;
+	cursor: pointer;
 }
 .text-muted {
 	color: #bcbbbb;
