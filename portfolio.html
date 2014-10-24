@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Project One in a valiant 1st cohort approach on Udacity's Front End Web Development Nano-Degree">
+    <meta name="keywords" content="Udacity, HTML, CSS, portfolio">
+    <meta name="author" content="James Hetmanek, Bootstrap contributors">
+
+    <script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    
+    <title>James's Udacity Web Portfolio</title>
+
+
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700' rel='stylesheet'>
+    <link href='http://fonts.googleapis.com/css?family=Special+Elite' rel='stylesheet'>
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="icon" type="image/ico" href="img/note.ico">
+
+  </head>
+
+  <body>
+
+<!--*** MAIN CONTENT *** -->
+    <div class="container text-center">
+
+<!--*** TOP ROW ***-->
+            <div class="row">
+              <div class="col-md-6 logo"><img class="title-logo" src="img/wooden-giant-logo.png" alt="logo"></div>
+              <div class="col-md-6 title text-right text-uppercase">
+                <h1 class="title-super text-thin">James Hetmanek</h1>
+                <h4>Front-end Poet</h4>
+              </div>
+            </div><!--- row -->
+
+<!--*** HORIZANTAL DIVIDER ***-->
+            <div class="row">
+              <div class="col-md-12">
+                <hr>
+              </div>
+            </div><!-- row -->
+
+<!--*** BIG IMAGE ***-->
+            <div class="row">
+                  <div class="col-md-12">
+                    <img class="img-responsive" src="img/forest-banner.jpg" alt="Forest Banner" data-toggle="modal" data-target="#banner1">
+                  </div>
+            </div><!-- row -->
+
+            <div class="row">
+              <div class="col-md-12">
+                <h2 class="text-muted text-left text-medium">Featured Work</h2>
+              </div>
+            </div><!-- row -->
+
+<!--*** PORTFOLIO ITEMS ***-->
+            <div class="row" >
+              <div class="col-md-4">
+                <img class="img-responsive text-center" src="img/saturn-moons.jpg" alt="Saturns Moons" data-toggle="modal" data-target="#project1">
+                <h3>Gravity</h3>
+                <p><a href="http://www.wemadeit.ca/">WE<strong>MADE</strong>IT.ca</a></p>
+              </div>
+              <div class="col-md-4">
+                <img class="img-responsive" src="img/mountain-bridge.jpg" alt="Pedestrian Bridge in the Mountains" data-toggle="modal" data-target="#project2">
+                <h3>Constitutional</h3>
+                <p><a href="http://projecteggdrop.com/">Project Eggdrop</a></p>
+              </div>
+              <div class="col-md-4">
+                <img class="img-responsive" src="img/guitars.jpg" alt="Guitars stored in a line" data-toggle="modal" data-target="#project3">
+                <h3>Indecision</h3>
+                <p><a href="http://floorballreferee.com/">FloorballReferee.com</a></p>
+              </div>         
+            </div><!-- row -->
+
+    </div> <!-- container --> 
+
+<!--*** POP UPS ***-->
+
+        <!-- Modal Banner -->
+        <div class="modal fade" id="banner1" tabindex="-1" role="dialog" aria-labelledby="ModalLabel-1" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h4 class="modal-title " id="ModalLabel-1">Elegance</h4>
+              </div>
+              <div class="modal-body">
+                <img class="img-responsive" src="img/forest-banner.jpg" alt="line of guitars">
+                <p>This is my code</p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+              <!-- Modal 2 -->
+        <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="ModalLabel-2" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h4 class="modal-title" id="ModalLabel-2">Distant influential gravity</h4>
+              </div>
+              <div class="modal-body">
+                <img class="img-responsive" src="img/saturn-moons.jpg" alt="saturn and moons">
+                <p>We are dwarved by tiny spheres. </p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Modal 3 -->
+        <div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="ModalLabel-3" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h4 class="modal-title" id="ModalLabel-3">Unknown beauty abounds</h4>
+              </div>
+              <div class="modal-body">
+                <img class="img-responsive" src="img/mountain-bridge.jpg" alt="mountain bridge">
+                <p>Walks are had elsewhere by friends in curious conundrums.</p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Modal 4 -->
+        <div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="ModalLabel-4" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h4 class="modal-title " id="ModalLabel-4">Overkill?</h4>
+              </div>
+              <div class="modal-body">
+                <img class="img-responsive" src="img/guitars.jpg" alt="bunch of guitars">
+                <p>How many instruments do we need?</p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+  </body>
+</html>
